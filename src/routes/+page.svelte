@@ -34,7 +34,7 @@
 	);
 </script>
 
-<Select.Root type="single" bind:value>
+<Select.Root type="single" bind:value items={themes}>
 	<Select.Trigger>
 		{selectedLabel}
 	</Select.Trigger>
